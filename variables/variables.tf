@@ -27,7 +27,7 @@ variable "cidr_blocks" {
   default = ["0.0.0.0/0"]
 }
 variable "sg_tag" {
-  type = map 
+  type = map(any)
   default = {
     Name = "sg-demo"
   }
