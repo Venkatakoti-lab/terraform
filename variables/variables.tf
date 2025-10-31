@@ -7,7 +7,7 @@ variable "instance_type" {
   default = "t3.micro"
 }
 variable "ec2_tags" {
-  type = map(any)
+  type = map
   default = {
     Name        = "expense-demo"
     Environment = "dev"
