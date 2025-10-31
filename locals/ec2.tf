@@ -1,4 +1,4 @@
-resource "aws_instance" "expense" {
+resource "aws_instance" "demo" {
   ami           = local.ami_id
   instance_type = local.instance_type
   tags = {
